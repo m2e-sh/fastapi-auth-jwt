@@ -24,7 +24,9 @@
 
 ---
 
-**Source Code**: <a href="https://github.com/deepmancer/fastapi-auth-jwt/" target="_blank">https://github.com/deepmancer/fastapi-auth-jwt</a>
+| **Source Code** | **Website** |
+|:-----------------|:------------|
+| <a href="https://github.com/deepmancer/fastapi-auth-jwt" target="_blank">github.com/deepmancer/fastapi-auth-jwt</a> | <a href="https://deepmancer.github.io/fastapi-auth-jwt/" target="_blank">deepmancer.github.io/fastapi-auth-jwt</a> |
 
 ---
 
