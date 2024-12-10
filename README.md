@@ -25,9 +25,9 @@
 
 ---
 
-| **Source Code** | **Documentation** | **Live Demos** |
-|:----------------|:------------------|:---------------|
-| [GitHub](https://github.com/deepmancer/fastapi-auth-jwt) | [Docs](https://deepmancer.github.io/fastapi-auth-jwt/) | [Examples](https://github.com/deepmancer/fastapi-auth-jwt/tree/main/examples) |
+| **Source Code** | **Documentation** | **PyPI** | **Live Demos** |
+|:----------------|:------------------|:---------|:---------------|
+| <a href="https://github.com/deepmancer/fastapi-auth-jwt" target="_blank">GitHub</a> | <a href="https://deepmancer.github.io/fastapi-auth-jwt/" target="_blank">Docs</a> | <a href="https://pypi.org/project/fastapi-auth-jwt/" target="_blank">PyPI</a> | <a href="https://github.com/deepmancer/fastapi-auth-jwt/tree/main/examples" target="_blank">Examples</a> |
 
 ---
 
