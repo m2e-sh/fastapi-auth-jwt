@@ -1,4 +1,4 @@
-__version__ = "0.1.10"
+__version__ = "0.1.11"
 __url__ = "https://github.com/deepmancer/fastapi-auth-jwt"
 
 from .backend import JWTAuthBackend
