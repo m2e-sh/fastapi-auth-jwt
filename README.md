@@ -7,7 +7,6 @@
 <p align="center">
     <em>Highly-customizable and ready-to-use session authentication for FastAPI applications </em>
 </p>
-
 <p align="center">
     <a href="https://github.com/deepmancer/fastapi-auth-jwt/actions/" target="_blank">
         <img src="https://github.com/deepmancer/fastapi-auth-jwt/workflows/Build/badge.svg" alt="Build Status">
@@ -22,6 +21,14 @@
         <img src="https://img.shields.io/github/license/deepmancer/fastapi-auth-jwt.svg" alt="License">
     </a>
 </p>
+
+---
+
+| **Source Code** | **Website** |
+|:-----------------|:------------|
+| <a href="https://github.com/deepmancer/fastapi-auth-jwt" target="_blank">github.com/deepmancer/fastapi-auth-jwt</a> | <a href="https://deepmancer.github.io/fastapi-auth-jwt/" target="_blank">deepmancer.github.io/fastapi-auth-jwt</a> |
+
+---
 
 ## **✨ Features**
 
