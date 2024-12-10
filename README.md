@@ -32,22 +32,20 @@
 ---
 
 ## Table of Contents
-- [FastAPI Auth JWT](#fastapi-auth-jwt)
-  - [Table of Contents](#table-of-contents)
-  - [🌟 Why FastAPI Auth JWT?](#-why-fastapi-auth-jwt)
-  - [📦 Installation](#-installation)
-  - [🚀 Getting Started](#-getting-started)
+- [🌟 Why FastAPI Auth JWT?](#-why-fastapi-auth-jwt)
+- [📦 Installation](#-installation)
+- [🚀 Getting Started](#-getting-started)
     - [🛠️ 1. Define a User Model](#️-1-define-a-user-model)
     - [⚙️ 2. Configure Authentication Settings](#️-2-configure-authentication-settings)
     - [🔧 3. Initialize the Authentication Backend](#-3-initialize-the-authentication-backend)
     - [🔌 4. Add Middleware to FastAPI](#-4-add-middleware-to-fastapi)
     - [📚 5. Define Your Routes](#-5-define-your-routes)
-  - [🧰 Redis Extension](#-redis-extension)
-  - [⚙️ Key Components \& Configurations](#️-key-components--configurations)
-  - [📂 Example Projects](#-example-projects)
-  - [📚 Documentation](#-documentation)
-  - [🛡️ License](#️-license)
-  - [⭐ Get Involved](#-get-involved)
+- [🧰 Redis Extension](#-redis-extension)
+- [⚙️ Key Components \& Configurations](#️-key-components--configurations)
+- [📂 Example Projects](#-example-projects)
+- [📚 Documentation](#-documentation)
+- [🛡️ License](#️-license)
+- [⭐ Get Involved](#-get-involved)
 
 ---
 
