@@ -122,6 +122,8 @@ redis = [
 ]
 
 [project.urls]
-Documentation = "https://github.com/deepmancer/fastapi-auth-jwt#readme"
+Homepage = "https://deepmancer.github.io/fastapi-auth-jwt"
+Documentation = "https://deepmancer.github.io/fastapi-auth-jwt"
+Repository = "https://github.com/deepmancer/fastapi-auth-jwt"
 Issues = "https://github.com/deepmancer/fastapi-auth-jwt/issues"
-Source = "https://github.com/deepmancer/fastapi-auth-jwt"
+Changelog = "https://github.com/deepmancer/fastapi-auth-jwt/blob/main/CHANGELOG.md"
