@@ -15,6 +15,7 @@ class StorageTypes(str, Enum):
 
     REDIS = "redis"
     MEMORY = "memory"
+    DYNAMODB = "dynamodb"
 
     @classmethod
     def values(cls) -> List[str]:
