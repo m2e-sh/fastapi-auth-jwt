@@ -119,5 +119,32 @@ class RedisConfig(StorageConfig):
             return f"redis://:{self.password}@{self.host}:{self.port}/{self.db}"
         return f"redis://{self.host}:{self.port}/{self.db}"
 
+class DynamoDBConfig(StorageConfig):
+    """
+    Configuration class for DynamoDB storage settings.
 
-__all__ = ["StorageConfig", "RedisConfig"]
+    Attributes:
+        storage_type (StorageTypes): The type of storage to use. Defaults to `StorageTypes.DYNAMODB`.
+        table_name (str): The name of the DynamoDB table.
+        region (str): The AWS region where the table is hosted.
+        endpoint_url (Optional[str]): The endpoint URL for local or custom DynamoDB setups.
+    """
+
+    storage_type: StorageTypes = Field(default=StorageTypes.DYNAMODB)
+    table_name: str = Field(default_factory=lambda: config("DYNAMODB_TABLE_NAME", default="session_store"))
+    region: str = Field(default_factory=lambda: config("AWS_REGION", default="us-east-1"))
+    endpoint_url: Optional[str] = Field(default_factory=lambda: config("DYNAMODB_ENDPOINT_URL", default=None))
+
+    def __repr__(self) -> str:
+        """
+        Return a string representation of the DynamoDB configuration object.
+        """
+        attributes = self.model_dump(exclude_none=True)
+        attributes["storage_type"] = self.storage_type.value
+        attributes_str = ", ".join([f"{k}={v}" for k, v in attributes.items()])
+        return f"DynamoDBConfig({attributes_str})"
+
+    def __str__(self) -> str:
+        return self.__repr__()
+
+__all__ = ["StorageConfig", "RedisConfig", "DynamoDBConfig"]
